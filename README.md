@@ -1,2 +1,4 @@
-# nik3452-github.io
+# Weather Application
 Weather App using Open Meteo forecast Api
+
+Simply follow the instructions on screen
