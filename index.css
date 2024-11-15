@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px; /* Add padding to the bottom */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+label {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#countryWeather {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+#countryWeather ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#countryWeather li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#countryWeather li:last-child {
+    border-bottom: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9em;
+}
