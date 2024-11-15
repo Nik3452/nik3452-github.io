@@ -39,6 +39,7 @@ $(document).ready(function() {
                 $('#labelCountry').show();
             });
         } else {
+            $('#countryWeather').empty()
             $('#labelCountry').hide()
         }
     });
